@@ -1,0 +1,230 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+
+.main{
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  width: 100vh;
+  height: 90vh;
+  margin-left: 20rem;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+h1{
+  color: black;
+  margin-left: 25rem;
+}
+
+h2{
+  color: black;
+}
+
+.BTN{
+  display: flex;
+  justify-content: space-around;
+}
+
+.BTN-1{
+  background: #ffffff;
+  color: black;
+}
+
+textarea{
+  width: 90vh;
+  height: 20vh;
+  margin-left: 30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background: #ffffff;
+  color: black;
+}
+
+.edited-note{
+  width: 50vh;
+}
+
+input{
+  margin-left: 29px;
+  background: #ffffff;
+  color: #000000;
+}
+
+.h2 {
+  color: #000000;
+}
+
+.BTN-2{
+  margin-left: 10px;
+  background-color: #000000;
+}
+
+ /* Media Query for Mobile Devices */
+
+ @media screen and  (max-width: 321px){
+  body{
+    width: 380px;
+    height: 900px;
+    margin: 0px;
+    background-color: #ffffff;
+  }
+  .main{
+    width: 54vh;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1px;
+    height: 90vh;
+  }
+
+  h1{
+    display: none;
+  }
+
+textarea{
+  width: 49vh;
+  margin-left: 10px;
+  height: 15vh;
+}
+
+.BTN{
+  margin: 5px;
+  gap: 5px;
+}
+
+input{
+  margin-left: 5px;
+}
+
+.edited-note{
+  width: 38vh;
+  margin-right: 30px;
+}
+
+.BTN-2{
+  margin-left: 10px;
+}
+ }
+
+ @media (max-width: 480px) {
+
+  .main{
+    width: 54vh;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1px;
+  }
+
+  h1{
+    display: none;
+  }
+
+textarea{
+  width: 49vh;
+  margin-left: 10px;
+  height: 15vh;
+}
+
+.BTN{
+  margin: 5px;
+  gap: 5px;
+}
+
+input{
+  margin-left: 5px;
+}
+
+.edited-note{
+  width: 38vh;
+  margin-right: 30px;
+}
+
+.BTN-2{
+  margin-left: 10px;
+}
+  
+}
+
+ /* Media Query for low resolution  Tablets, Ipads */
+
+ @media (min-width: 481px) and (max-width: 767px) {
+
+  body{
+    width: 100%;
+    height: 150vh;
+  }
+
+  .main{
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1px;
+    margin-bottom: 0px;
+  }
+
+  h1{
+    display: none;
+   }
+
+  textarea{
+    width: 140vh;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+  .main{
+    width: 73vh;
+    height: 100vh;
+    margin-left: 0rem;
+    margin-right: 5px;
+  }
+
+  h1{
+    display: none;
+  }
+
+  textarea{
+    width: 60vh;
+    height: 10vh;
+    margin-left: 54px;
+  }
+
+  .edited-note{
+    width: 38vh;
+    height: 12vh;
+    margin-right: 30px;
+  }
+}
+
+ /* Media Query for Laptops and Desktops */
+ @media (min-width: 1025px) and (max-width: 1280px){
+  body {
+      background-color: green;
+  }
+  .main{
+    width: 73vh;
+    height: 100vh;
+    margin-left: 180px;
+    margin-right: 2px;
+  }
+
+  h1{
+    display: none;
+  }
+
+  textarea{
+    width: 60vh;
+    height: 10vh;
+    margin-left: 54px;
+  }
+
+  .edited-note{
+    width: 38vh;
+    height: 12vh;
+    margin-right: 30px;
+  }
+}
